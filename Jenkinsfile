@@ -6,6 +6,7 @@ pipeline {
         stage("state directory"){
             steps{
                 sh "ls -la"
+                sh "pwd"
             }
         }
         stage("check version"){
